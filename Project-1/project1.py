@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 from numpy import random
 
 from packet import packet
@@ -31,3 +32,5 @@ def arrival():
 def departure():
     if t >= t_departure:
         queue.pop()
+=======
+
