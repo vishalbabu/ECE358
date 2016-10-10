@@ -4,7 +4,7 @@ from numpy import random
 from packet import packet
 
 # x is number of random vars to generate, in the form of a list
-random.uniform(0.0, 1.0, x)
+random.uniform(0.0, 2.0, x)
 
 def main(args):
     intialize_variables(args)
