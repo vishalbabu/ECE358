@@ -34,4 +34,3 @@ def arrival():
         t_arrival = t + calc_arrival_time()
         t_departure = t + (packet_size / transmission_rate)
         # Also need to consider packet loss case when queue is full
-
