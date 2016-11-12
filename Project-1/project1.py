@@ -35,8 +35,3 @@ def arrival():
         t_departure = t + (packet_size / transmission_rate)
         # Also need to consider packet loss case when queue is full
 
-
-def departure():
-    if t >= t_departure:
-        queue.pop()
-
